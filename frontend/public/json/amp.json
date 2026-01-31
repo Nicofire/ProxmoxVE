@@ -1,0 +1,35 @@
+{
+  "name": "AMP",
+  "slug": "amp",
+  "categories": [
+    24
+  ],
+  "date_created": "2026-01-31",
+  "type": "ct",
+  "updateable": true,
+  "privileged": false,
+  "interface_port": 8080,
+  "documentation": "https://github.com/CubeCoders/AMP",
+  "website": "https://cubecoders.com/AMP",
+  "logo": "https://pbs.twimg.com/profile_images/1261021896843411461/voBCBPHQ_400x400.jpg",
+  "config_path": "/opt/cubecoders/amp/",
+  "description": "AMP (Application Management Panel) is a comprehensive web-based game server control panel that simplifies the deployment and management of over 100 different game servers with a focus on automation and security.",
+  "install_methods": [
+    {
+      "type": "default",
+      "script": "ct/amp.sh",
+      "resources": {
+        "cpu": 4,
+        "ram": 4096,
+        "hdd": 20,
+        "os": "debian",
+        "version": "13"
+      }
+    }
+  ],
+  "default_credentials": {
+    "username": null,
+    "password": null
+  },
+  "notes": []
+}
