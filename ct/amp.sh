@@ -5,7 +5,7 @@ source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxV
 # License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
 # Source: https://cubecoders.com/AMP
 
-APP="AMP (CubeCoders)"
+APP="AMP"
 var_tags="${var_tags:-gaming;gameserver}"
 var_cpu="${var_cpu:-4}"
 var_ram="${var_ram:-4096}"
